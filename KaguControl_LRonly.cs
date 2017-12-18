@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,7 +12,6 @@ public class sofaControl : MonoBehaviour {
 			if (Physics.Raycast (ray, out hit, Mathf.Infinity)) {
 				float x = hit.point.x;
 				float z = hit.point.z;
-				transform.position = new Vector3 (x, -253, z);
 			}
 		}
 	}
