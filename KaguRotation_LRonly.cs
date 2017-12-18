@@ -10,7 +10,7 @@ public class ObjectRotation : MonoBehaviour {
 
 	private float x = 0.0f;
 
-	private Quaternion rotation = Quaternion.Euler(new Vector3(30f,0f,0f));
+	private Quaternion rotation = Quaternion.Euler(new Vector3(0f,0f,0f));
 
 	void Update ()
 	{
