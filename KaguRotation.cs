@@ -15,7 +15,7 @@ public class ObjectRotation : MonoBehaviour {
 	private int yMinLimit = -90;
 	private int yMaxLimit = 90;
 
-	private Quaternion rotation = Quaternion.Euler(new Vector3(180f,0f,0f));
+	private Quaternion rotation = Quaternion.Euler(new Vector3(0f,0f,0f));
 
 	void Update ()
 	{
