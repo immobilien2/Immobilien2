@@ -4,7 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectRotation : MonoBehaviour {
+public class KaguRotation : MonoBehaviour {
 
 	public float xSpeed = 2000.0f;
 	public float ySpeed = 1000.0f;
